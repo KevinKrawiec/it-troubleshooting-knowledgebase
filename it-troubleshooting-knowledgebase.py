@@ -13,17 +13,20 @@ while True:
         print("Please enter a number!")
         choice = 0
 
-    if choice == 0 or choice < 0 or choice > 4:
+    if choice == 0:
         break
 
-    if choice == 1:
+    elif choice == 1:
         pass
 
-    if choice == 2:
+    elif choice == 2:
         pass
 
-    if choice == 3:
+    elif choice == 3:
         pass
 
-    if choice == 4:
+    elif choice == 4:
         pass
+
+    else:
+        print("Wrong number, try again.")
