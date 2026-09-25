@@ -1,0 +1,78 @@
+{
+  "Basic Check": [
+    "1. Check the Ethernet cable or make sure Wi-Fi is turned on.",
+    "2. Run ipconfig /all and check the IPv4 address, Default Gateway and DNS Servers.",
+    "3. Run ping 127.0.0.1 to check the local TCP/IP stack.",
+    "4. Ping your own IPv4 address.",
+    "5. Ping the Default Gateway.",
+    "6. Ping 8.8.8.8.",
+    "7. Ping google.com.",
+    "8. Run nslookup google.com."
+  ],
+
+  "1. Ethernet or Wi-Fi connection does not work": [
+    "The computer may not be connected to the local network.",
+    "Check if the Ethernet cable is connected correctly.",
+    "Try another Ethernet cable or network port if possible.",
+    "If you use Wi-Fi, make sure Wi-Fi is turned on.",
+    "Make sure Airplane mode is off.",
+    "Check the network adapter in Device Manager."
+  ],
+
+  "2. ipconfig shows a wrong or missing network configuration": [
+    "Check the IPv4 address, Default Gateway and DNS Servers.",
+    "If the IPv4 address starts with 169.254, the computer probably did not receive an address from DHCP.",
+    "Check the Ethernet or Wi-Fi connection.",
+    "Run ipconfig /release.",
+    "Run ipconfig /renew.",
+    "Run ipconfig /all again and check the new configuration."
+  ],
+
+  "3. ping 127.0.0.1 does not work": [
+    "This may mean there is a problem with the local TCP/IP stack.",
+    "Restart the computer.",
+    "Check the network adapter in Device Manager.",
+    "Try disabling and enabling the network adapter.",
+    "If the problem continues, the TCP/IP configuration may need further repair."
+  ],
+
+  "4. Ping to your own IPv4 address does not work": [
+    "The network adapter or local IP configuration may not be working correctly.",
+    "Run ipconfig /all and check the IPv4 address.",
+    "Disable and enable the network adapter.",
+    "Check the network adapter in Device Manager.",
+    "Restart the computer and test again."
+  ],
+
+  "5. Ping to the Default Gateway does not work": [
+    "The computer cannot communicate correctly with the local network gateway.",
+    "Check the Ethernet cable or Wi-Fi connection.",
+    "Run ipconfig /all and check the IPv4 address, Subnet Mask and Default Gateway.",
+    "Run ipconfig /renew if the computer uses DHCP.",
+    "Check if another device can reach the same Default Gateway."
+  ],
+
+  "6. Default Gateway works, but ping 8.8.8.8 does not": [
+    "The local network probably works, but the computer cannot reach the Internet.",
+    "Check if other users have Internet access.",
+    "Run tracert 8.8.8.8.",
+    "If many users have the same problem, the router, firewall or ISP may be the cause.",
+    "Escalate the problem if it affects more than one computer."
+  ],
+
+  "7. ping 8.8.8.8 works, but ping google.com does not": [
+    "The Internet connection probably works, but DNS may not be working.",
+    "Run ipconfig /all and check the DNS Servers.",
+    "Run nslookup google.com.",
+    "Run ipconfig /flushdns.",
+    "Test google.com again."
+  ],
+
+  "8. nslookup google.com does not work": [
+    "The DNS server may not be responding or the DNS configuration may be wrong.",
+    "Run ipconfig /all and check the DNS Servers.",
+    "Check if the DNS server address looks correct.",
+    "Run ipconfig /flushdns.",
+    "If other users have the same DNS problem, escalate it to the network administrator."
+  ]
+}

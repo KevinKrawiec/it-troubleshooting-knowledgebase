@@ -1,0 +1,59 @@
+{
+  "Basic Check": [
+    "Check if the monitor is turned on.",
+    "Check the HDMI, DisplayPort or USB-C cable.",
+    "Check the correct input source on the monitor.",
+    "Press Win + P and check the display mode.",
+    "Open Settings > System > Display and check if Windows detects the monitor."
+  ],
+
+  "1. No image or No Signal": [
+    "The monitor is on, but it is not receiving a video signal.",
+    "Check the monitor power.",
+    "Check the video cable on both ends.",
+    "Select the correct input source, for example HDMI or DisplayPort.",
+    "Try another cable or video port.",
+    "Test the monitor with another computer."
+  ],
+
+  "2. Second monitor is not detected": [
+    "Windows can see only one monitor.",
+    "Check the cable and the monitor power.",
+    "Press Win + P and select Extend.",
+    "Open Settings > System > Display.",
+    "Use Detect if the second monitor is missing.",
+    "Check the graphics driver in Device Manager."
+  ],
+
+  "3. Wrong resolution or scale": [
+    "Text, icons or the picture look too large, too small or blurry.",
+    "Open Settings > System > Display.",
+    "Set Display resolution to the Recommended value.",
+    "Check the Scale setting.",
+    "Use the monitor's native resolution when possible."
+  ],
+
+  "4. Screen is flickering": [
+    "The image flashes, blinks or is not stable.",
+    "Check the video cable.",
+    "Try another cable or port.",
+    "Check the screen refresh rate.",
+    "Press Win + Ctrl + Shift + B to restart the graphics driver.",
+    "Check the graphics driver in Device Manager."
+  ],
+
+  "5. Wrong display mode": [
+    "The picture is shown on the wrong screen or the second monitor is not used correctly.",
+    "Press Win + P.",
+    "Choose PC screen only, Duplicate, Extend or Second screen only.",
+    "Use Extend when you want two separate desktop areas."
+  ],
+
+  "6. Screen has strange colors or is black and white": [
+    "The monitor may be working correctly, but Windows accessibility settings can change the colors.",
+    "Open Settings > Accessibility.",
+    "Check Color filters.",
+    "Check Contrast themes.",
+    "Turn off any display accessibility option that was enabled by mistake."
+  ]
+}

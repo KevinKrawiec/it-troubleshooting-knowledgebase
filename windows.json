@@ -1,0 +1,122 @@
+{
+  "1. BitLocker and BitLocker To Go": [
+    "BitLocker is a Windows tool that encrypts a drive.",
+    "Encryption protects data if a computer is lost or stolen.",
+    "The user may need a password, PIN, USB key or TPM to unlock the drive.",
+    "BitLocker To Go is used for USB flash drives and other removable drives.",
+    "A BitLocker Recovery Key can unlock the drive when normal login does not work.",
+    "The Recovery Key can be stored in a Microsoft account, company account or by the IT department.",
+    "Do not turn off BitLocker or remove encryption without permission in a company."
+  ],
+  "2. Windows Updates": [
+    "Windows Update keeps Windows secure and stable.",
+    "Quality Updates fix security and reliability problems.",
+    "Feature Updates add new Windows features and larger changes.",
+    "Driver and Firmware Updates can improve hardware support.",
+    "Optional Updates are not always installed automatically.",
+    "Windows usually downloads updates automatically.",
+    "The computer may need a restart after an update.",
+    "You can check updates in Settings > Windows Update."
+  ],
+  "3. Device Driver and Firmware Updates": [
+    "A driver helps Windows communicate with hardware.",
+    "Drivers are used for devices such as graphics cards, network adapters, printers and sound devices.",
+    "A driver update can fix bugs, security problems and compatibility problems.",
+    "You can check drivers in Device Manager.",
+    "If a new driver causes a problem, Windows may allow you to use Roll Back Driver.",
+    "Firmware is software stored inside a hardware device.",
+    "Firmware updates can improve stability, security or hardware support.",
+    "Firmware updates must be installed carefully because a failed update can cause serious problems."
+  ],
+  "4. Application Updates": [
+    "Applications also need updates.",
+    "Updates can fix bugs and security problems.",
+    "Updates can also improve compatibility with Windows.",
+    "Many applications update automatically.",
+    "Some applications have a Check for updates option.",
+    "Browsers and security software are usually updated often.",
+    "Keep business applications updated according to company rules."
+  ],
+  "5. Browser Cache": [
+    "A browser cache stores parts of websites on the computer.",
+    "The cache helps websites load faster.",
+    "Old or damaged cache files can cause website problems.",
+    "A page may look wrong or show old information.",
+    "Clearing the browser cache can fix some loading and display problems.",
+    "After clearing the cache, reload the website and test it again."
+  ],
+  "6. Task Manager": [
+    "Task Manager helps you check running applications and system performance.",
+    "Open Task Manager with Ctrl + Shift + Esc.",
+    "The Processes tab shows running applications and background processes.",
+    "The Performance tab shows CPU, memory, disk and network usage.",
+    "The Startup apps tab shows programs that start with Windows.",
+    "The Users tab shows users who are logged in.",
+    "The Details tab shows more information about processes.",
+    "The Services tab shows Windows services.",
+    "You can use Task Manager to close an application that is not responding.",
+    "Do not stop unknown system processes if you do not know what they do."
+  ],
+  "7. Data Loss and Cloud Backup": [
+    "Data loss means important files are lost or damaged.",
+    "Data can be lost because of hardware failure, accidental deletion or a cyberattack.",
+    "A backup is a second copy of important data.",
+    "Cloud storage can keep files on remote servers.",
+    "Cloud files can often be opened from different devices.",
+    "Common cloud storage services include OneDrive, Google Drive and Dropbox.",
+    "A backup is useful when a computer is lost, damaged or reset."
+  ],
+  "8. OneDrive": [
+    "OneDrive is Microsoft's cloud storage service.",
+    "It is integrated with Windows.",
+    "Users can sync folders between the computer and the cloud.",
+    "Files can be opened from another device after signing in.",
+    "Deleted files may be restored from the OneDrive Recycle Bin.",
+    "If OneDrive does not sync, check the Internet connection first.",
+    "Check the OneDrive icon in the system tray for an error message.",
+    "Restart OneDrive if synchronization is not working.",
+    "Check that there is enough cloud storage space."
+  ],
+  "9. Google Drive for Desktop": [
+    "Google Drive for Desktop connects Windows with Google Drive.",
+    "Users can store files in the cloud and sync folders.",
+    "Stream files keeps most files in the cloud and uses less local disk space.",
+    "Mirror files keeps files both on the computer and in the cloud.",
+    "Files can be managed from the Google Drive folder in Windows.",
+    "Check the Google Drive icon in the system tray if synchronization has a problem.",
+    "Check the Internet connection and available storage space."
+  ],
+  "10. Dropbox for Desktop": [
+    "Dropbox is a cloud storage and synchronization service.",
+    "The Dropbox application creates a Dropbox folder in Windows.",
+    "Files in this folder can sync with the cloud.",
+    "Changes can also sync to other connected devices.",
+    "Selective Sync lets the user choose which folders are stored on the computer.",
+    "This can help save local disk space.",
+    "If Dropbox does not sync, check the Internet connection, application status and available storage."
+  ],
+  "11. BIOS, UEFI and Windows Boot": [
+    "BIOS and UEFI are firmware that start before Windows.",
+    "Modern computers usually use UEFI.",
+    "BIOS or UEFI checks hardware and starts the boot process.",
+    "The boot order tells the computer which device to start from first.",
+    "The main system drive is normally the first boot device.",
+    "A technician may change the boot order to start from a USB drive.",
+    "This can be useful for Windows installation or recovery tools.",
+    "Common keys to open BIOS or UEFI include F2, F10, Esc and Delete.",
+    "The correct key depends on the computer manufacturer.",
+    "Be careful when changing BIOS or UEFI settings."
+  ],
+  "12. Safe Mode and Windows Recovery Environment": [
+    "Safe Mode starts Windows with only basic drivers and services.",
+    "It is useful for troubleshooting startup problems, driver problems and software conflicts.",
+    "If the problem does not happen in Safe Mode, a third-party driver or application may be the cause.",
+    "You can open recovery options from Settings > System > Recovery > Advanced startup.",
+    "You can also hold Shift and select Restart.",
+    "Windows may open the Windows Recovery Environment automatically after repeated startup failures.",
+    "In WinRE, open Troubleshoot > Advanced options > Startup Settings.",
+    "Basic Safe Mode uses only essential drivers.",
+    "Safe Mode with Networking also loads network support.",
+    "Safe Mode with Command Prompt opens a command-line troubleshooting environment."
+  ]
+}

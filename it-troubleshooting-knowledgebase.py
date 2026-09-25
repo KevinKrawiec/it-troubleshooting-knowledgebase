@@ -1,3 +1,16 @@
+import json
+
+def show_knowledgebase(filename):
+    with open(filename, "r", encoding="utf-8") as file:
+        data = json.load(file)
+
+    for title, steps in data.items():
+        print(f"\n{title}")
+
+        for step in steps:
+            print(f"- {step}")
+
+
 while True:
     print("\n####################################")
     print("My IT Troubleshooting Knowledgebase:")
@@ -17,13 +30,13 @@ while True:
         break
 
     elif choice == 1:
-        pass
+        show_knowledgebase("network.json")
 
     elif choice == 2:
-        pass
+        show_knowledgebase("windows.json")
 
     elif choice == 3:
-        pass
+        show_knowledgebase("screen.json")
 
     elif choice == 4:
         pass
